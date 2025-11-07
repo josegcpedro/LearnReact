@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apprendre React
 
-## Getting Started
+## 🎯 Objectif du projet
+Ce projet a pour but d'apprendre les **bases de React** avec des exemple **simples et intéractifs**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Que ce que c'est React? 
+React est une **bibliothèque** javascript qui aide le développeur à créer d'interfaces utilisateurs et c'est au **développeur de choisir le reste des outils**. React ne fait pas le back-end ni les routes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Differences entre Bibliothèque et Framework
+Une **bibliothèque** aide le développeur à effectuer une chose précise, par exemple **React** aide l'utilisateur à créer des interfaces utilisateurs. Et le développeur à la liberté de choisir comment il veut structurer son app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Un **framework** est une **structure complète**.  
+C’est le framework qui définit le **flux du code**, c’est-à-dire **l’ordre dans lequel le programme s’exécute**.  
+Autrement dit, **c’est le framework qui contrôle ton code**, alors qu’avec une **bibliothèque**, c’est **le développeur** qui contrôle quand et comment il l’utilise.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### Commande pour créer application react
+Par défaut la commande pour créer une app react basique est: `npm create vite@latest "nom-application" -- --template react-ts`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Cette commande permet de créer une application react avec une template par défaut de **react avec typescript**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Pourquoi TypeScript ?
+TypeScript est un langage **typé**, ce qui signifie que chaque variable doit avoir un **type** défini.  
+Si le type n’est pas respecté, une erreur est détectée dès la phase de développement.  
+Cela permet de réduire les bugs et d’avoir un code plus fiable et plus facile à maintenir.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### UseState
+https://fr.react.dev/reference/react/useState
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### UseEffect
+https://fr.react.dev/reference/react/useEffect
