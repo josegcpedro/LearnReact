@@ -6,8 +6,10 @@ export default function Home() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (count === 0) return;
-  }, [count]);
+    if (count > 0) {
+      alert(`Le compteur est maintenant à ${count}`);
+    }
+  }, [count]); // Se déclenche à chaque changement de count
 
   return (
     <main style={{ textAlign: "center", marginTop: "50px" }}>
