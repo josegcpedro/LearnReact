@@ -29,7 +29,12 @@ Cela permet de réduire les bugs et d’avoir un code plus fiable et plus facile
 
 
 #### UseState
+UseState permet de garder une valeur déterminé et la modifier, par convention un useState prends une variable qui est la variable qui contient la valeur et un setteur qui va modifier la valeur, le setteur contient un "set" avant le nom par exemple setNumber
 https://fr.react.dev/reference/react/useState
 
 #### UseEffect
+UseEffect réagis a uniquement 1 événement, par exemple au chargement de la page, au click d'un boutton etc...
+
 https://fr.react.dev/reference/react/useEffect
+
+
