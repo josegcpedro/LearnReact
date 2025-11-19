@@ -17,19 +17,31 @@ Autrement dit, **c’est le framework qui contrôle ton code**, alors qu’avec 
 
 ---
 
-### Commande pour créer application react
-Par défaut la commande pour créer une app react basique est: `npm create vite@latest "nom-application" -- --template react-ts`
+### Commande pour créer application next
+Par défaut la commande pour créer une app next basique est: `npx create-next-app@latest [project-name] [options]`
+
+Pour créer une app next basique vide la commande est: `npx create-next-app@latest empty-project --empty`
 
 Cette commande permet de créer une application react avec une template par défaut de **react avec typescript**.
 
 #### Pourquoi TypeScript ?
-TypeScript est un langage **typé**, ce qui signifie que chaque variable doit avoir un **type** défini.  
-Si le type n’est pas respecté, une erreur est détectée dès la phase de développement.  
+TypeScript est un langage **typé**, ce qui signifie que chaque variable doit avoir un **type** défini.
+Si le type n’est pas respecté, une erreur est détectée dès la phase de développement.
 Cela permet de réduire les bugs et d’avoir un code plus fiable et plus facile à maintenir.
 
 
 #### UseState
 https://fr.react.dev/reference/react/useState
 
+Le useState permet de changer l'état d'une variable, après un événement.
+
 #### UseEffect
 https://fr.react.dev/reference/react/useEffect
+
+Le useEffect est appélé a un moment précis de l'application il peut être appelé au chargement de la page,à un événement précis etc... , on definit a la fin du useEffect.
+
+#### Passage en Props
+
+https://nextjs.org/learn/react-foundations/displaying-data-with-props
+
+Le props permet de transmettre des données au enfant, le composant parent envoie les données souhaités au composants fils, atention l'inverse n'est pas possible!
